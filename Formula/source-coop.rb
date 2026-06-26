@@ -1,25 +1,25 @@
 class SourceCoop < Formula
   desc "CLI for Source Cooperative — OIDC login and STS credential exchange"
   homepage "https://source.coop"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.2/source-coop-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "1a2205ec7d39130fc2484575e177f38040b5191025fa5a21dc285cc00e0f8488"
+      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.3/source-coop-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "8b836a215cca3e81bb1f5451e2c53eb62347cad3359ae57ba502343da800ffbf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.2/source-coop-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a6845e56166ad906a682793fd8c5c9b52ffd98f24aa94017dbc57430c1188ec9"
+      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.3/source-coop-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "eb5d5ff9125b8a420694ccbd4f53ce546393e8e06388c24cc01f7126eb56f8cc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.2/source-coop-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f5fc3e7adb2526731bca35fd38ccebcbc30f0d3f47c0d9cd973b1eda6a99ac4e"
+      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.3/source-coop-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f84c22a1783f29666f47f0d6ebfb28d55f8ef1ae144a1b4adae3928a7c4e152e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.2/source-coop-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "23aed42d362fc6b6fe5a5f38e4f855ab2a3eec5c96cdff4c71408f9056e7d2cc"
+      url "https://github.com/source-cooperative/source-coop-cli/releases/download/v0.1.3/source-coop-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "15579450384f29327a235777423ad4365ef49944717bc0429e9a990ea3de9e41"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
